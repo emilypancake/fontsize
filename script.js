@@ -6,6 +6,8 @@ document.addEventListener("DOMContentLoaded", function(){
   const image = document.getElementById("image");
   const fontSizeText = document.getElementById("fontSize");
   const imageSizeText = document.getElementById("imageSize");
+  document.getElementByID("icon").style.width = 10 + "px"; // css is not working
+  document.getElementByID("icon").style.height = "auto"; // css is not working
   
   function changeFontSize(){
     text.style.fontSize = fontSlider.value + "px"; 
