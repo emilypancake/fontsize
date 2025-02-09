@@ -1,16 +1,23 @@
 document.addEventListener("DOMContentLoaded", function(){
-  const slider = document.getElementById("myRange");
+  const fontSlider = document.getElementById("fontSlider");
+  const imageSlider = document.getElementById("imageSlider");
   const text = document.getElementById("text");
+  const image = document.getElementById("image");
   const fontSizeText = document.getElementById("fontSize");
+  const imageSizeText = document.getElementById("imageSize");
   
   function changeFontSize(){
-    text.style.fontSize = slider.value + "px"; 
-    fontSizeText.innerText = slider.value;
+    text.style.fontSize = fontSlider.value + "px"; 
+    fontSizeText.innerText = fontSlider.value;
+  }
+  function changeImageSize(){
+    image.style.width = imageSlider.value + "px";
+    imageSizeText.innerText = imageSlider.value;
   }
   
-  
-  slider.addEventListener("input", function(){
+  fontSlider.addEventListener("input", function(){
     changeFontSize();
   });
+  
 });
 
