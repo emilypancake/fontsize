@@ -5,7 +5,8 @@
   display: flex;
 }
 img{
-  width: 30 px;
+  width: 10 px;
+  height: auto;
 } 
 #image {
   width: 30 px;
