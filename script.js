@@ -12,5 +12,5 @@ document.addEventListener("DOMContentLoaded", function(){
   slider.addEventListener("input", function(){
     changeFontSize();
   });
-}
+});
 
