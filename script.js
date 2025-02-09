@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function(){
   imageSlider.addEventListener("input", function(){
     changeImageSize();
   });
-  
+   
   
 });
 
