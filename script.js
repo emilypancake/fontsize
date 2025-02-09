@@ -1,3 +1,4 @@
+Console.log("github are u here");
 document.addEventListener("DOMContentLoaded", function(){
   const fontSlider = document.getElementById("fontSlider");
   const imageSlider = document.getElementById("imageSlider");
