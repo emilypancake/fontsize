@@ -1,4 +1,4 @@
-<!DOCTYPE javascript>
+
   
 const slider = document.getElementById("myRange");
 const text = document.getElementById("text");
