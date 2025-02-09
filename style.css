@@ -1,6 +1,10 @@
 #text {
   font-size: 30 px;
 }
-#hstack{
+.hstack{
   display: flex;
 }
+img{
+  width: 30 px;
+} 
+  
