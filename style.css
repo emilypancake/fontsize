@@ -9,6 +9,10 @@
   width: 10 px;
   height: auto;
 } 
+.hstack:nth-child(1){
+  width: 10 px;
+  height: auto;
+} 
 #image {
   width: 30 px;
   height: auto;
