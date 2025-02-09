@@ -10,4 +10,6 @@ function changeFontSize(){
 }
 
 
-slider.addEventListener("input", changeFontSize());
+slider.addEventListener("input", function(){
+  changeFontSize();
+});
