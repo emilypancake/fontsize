@@ -18,6 +18,10 @@ document.addEventListener("DOMContentLoaded", function(){
   fontSlider.addEventListener("input", function(){
     changeFontSize();
   });
+  imageSlider.addEventListener("input", function(){
+    changeImageSize();
+  });
+  
   
 });
 
