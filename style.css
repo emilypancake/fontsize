@@ -6,7 +6,7 @@
   gap: 10 px;
 }
 .hstack img{
-  width: 10 px;
+  width: 20 px;
   height: auto;
 } 
 /* .hstack:nth-child(1){
@@ -14,7 +14,7 @@
   height: auto;
 }  */
 #image {
-  width: 30 px;
+  width: 20 px;
   height: auto;
 }
   
